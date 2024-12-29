@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+        <!-- Set a solid color for the delete button background (red) -->
+        <solid android:color="#FF0000" />
+
+        <!-- Define the radius to make the button round -->
+        <corners android:radius="50dp" />
+
+        <!-- Optional: Set padding inside the button -->
+        <padding
+            android:left="10dp"
+            android:right="10dp"
+            android:top="10dp"
+            android:bottom="10dp" />
+
+        <!-- Optional: Add a border to the button -->
+        <stroke
+            android:width="2dp"
+            android:color="#FF0000" /> <!-- Same color as the background, but you can make it different -->
+
+</shape>
